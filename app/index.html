@@ -14,6 +14,7 @@
   <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="app.css">
   <link rel="stylesheet" href="home/home.css">
+  <link rel="stylesheet" href="components/footer/footer.css">
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
@@ -23,6 +24,8 @@
   <![endif]-->
 
   <div ng-view id="main"></div>
+
+  <div class="footer-background" ng-include="" src="'components/footer/footer.html'"></div>
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
