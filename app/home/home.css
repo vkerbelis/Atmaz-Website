@@ -1,0 +1,31 @@
+.button-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.press-me {
+  flex: 1;
+}
+
+.overlay {
+  user-select: none;
+  position: fixed;
+  top: 60%;
+  width: 200px;
+  left: 50%;
+  margin-left: -100px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.65);
+  height: 50px;
+  line-height: 45px;
+  color: white;
+  border-radius: 10px;
+}
+
+.press-me:focus, .press-me:active {
+  outline: none;
+  outline: 0;
+}
