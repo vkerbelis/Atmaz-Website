@@ -14,10 +14,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-image: url('images/bottom-shadow.png');
-  background-size: 100% 40%;
-  background-repeat: no-repeat;
-  background-position: bottom;
 }
 
 /* app css stylesheet */

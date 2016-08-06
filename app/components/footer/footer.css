@@ -1,26 +1,55 @@
 .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: absolute;
   bottom: 0px;
   width: 100%;
-  height: 50px;
-  line-height: 45px;
-  color: grey;
+}
+
+.footer .main, .footer .secondary {
+  width: 100%;
+  text-align: center;
+}
+
+.footer .main {
+  background-color: #292929;
+  padding: 10px 0 10px 0;
+  background-image: url('./../../images/footer-main-background-shadow.png');
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.footer .secondary {
+  padding: 10px 0 0 0;
+  background-color: #5B9638;
+  background-image: url('./../../images/footer-secondary-background-shadow.png');
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.footer .header, .footer .content {
+  text-align: center;
+}
+
+.footer .header {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.footer .content {
+  color: #CACACA;
+  line-height: 35px;
+  font-size: 10px;
 }
 
 .sitemap {
-  color: grey;
-  position: absolute;
-  left: 0px;
+  color: inherit;
   cursor: pointer;
-  padding-left: 15px;
 }
 
 .sitemap:hover {
-  color: grey;
-}
-
-.copyright {
-  position: absolute;
-  right: 0px;
-  padding-right: 15px;
+  color: inherit;
 }
