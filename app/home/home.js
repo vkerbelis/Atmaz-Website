@@ -10,7 +10,6 @@ app.config(['$routeProvider', function($routeProvider) {
 }]);
 
 app.controller('HomeCtrl', ['$scope', function($scope) {
-  $scope.text = "Atmaz mother fuckers.";
 
   $('.overlay').css('display', 'none');
 

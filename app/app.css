@@ -1,5 +1,11 @@
+@font-face {
+  font-family: Fixedsys;
+  src: url(./../local_components/fonts/FSEX300.ttf);
+}
+
 html,
 body {
+    font-family: Fixedsys;
     height: 100%;
 }
 
@@ -8,6 +14,10 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  background-image: url('images/bottom-shadow.png');
+  background-size: 100% 40%;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 /* app css stylesheet */
